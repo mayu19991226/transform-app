@@ -1,5 +1,5 @@
 body {
-  background-image: url('/assets/back.png'); /* 背景画像のパスを指定 */
+  background-image: url('back.png'); /* 背景画像のパスを指定 */
   background-size: cover; /* 背景画像をページ全体に広げる */
   background-position: center; /* 背景画像の位置を中央に設定 */
   background-repeat: no-repeat; /* 背景画像の繰り返しを無効にする */
