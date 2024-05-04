@@ -3,5 +3,5 @@
 <%= image_tag 'character.png', alt: 'キャラクターの画像' %>
 <div class="button-container" style="display: flex; justify-content: space-between; gap: 20px;">
   <a class="btn-image" href="/">ホームへ</a>
-  <%= link_to '<i class="fab fa-twitter"></i> Xで共有'.html_safe, "https://twitter.com/intent/tweet?text=#{ERB::Util.url_encode("あなたが変身したキャラクターは「#{@character}」です！#{@character_comment}")}", target: "_blank", class: "btn-image" %>
+  <%= link_to '<i class="fab fa-twitter"></i> Xで共有'.html_safe, "https://twitter.com/intent/tweet?text=#{ERB::Util.url_encode("あなたが変身したキャラクターは「#{@character}」です！#{@character_comment} https://transform-app.onrender.com/ #ミニアプリ #魔法のボタン")}", target: "_blank", class: "btn-image" %>
 </div>
