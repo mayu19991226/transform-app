@@ -1,6 +1,11 @@
 body {
   background-color: #f3c1e1; /* 薄い水色 */
 }
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.

@@ -25,7 +25,7 @@ body {
   align-items: center;
   width: 350px;
   height: 350px;
-  background-color: #f74cbb;
+  background-color: #fa32b4;
   color: white;
   border: none;
   position: relative;
@@ -37,7 +37,7 @@ body {
 }
 
 .transform-btn-image:hover {
-  background-color: #f728af; /* もう少し濃いピンク */
+  background-color: #df0492; /* もう少し濃いピンク */
 }
 
 .btn-image:hover {
@@ -60,7 +60,7 @@ body {
 }
 
 h1 {
-  font-size: 4em; /* 文字の大きさを3倍にします */
+  font-size: 3em; /* 文字の大きさを3倍にします */
   font-weight: bold; /* 文字を太くします */
   padding: 15px;
 }
