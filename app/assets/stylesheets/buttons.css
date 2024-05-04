@@ -1,0 +1,71 @@
+body {
+  background-image: url('/assets/back.webp'); /* 背景画像のパスを指定 */
+  background-size: cover; /* 背景画像をページ全体に広げる */
+  background-position: center; /* 背景画像の位置を中央に設定 */
+  background-repeat: no-repeat; /* 背景画像の繰り返しを無効にする */
+  margin: 0; /* ページの余白をなくす */
+  padding: 0; /* ページの余白をなくす */
+  height: 100vh; /* ページ全体の高さを画面サイズに合わせる */
+}
+
+.btn-image {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background-color: #cc6df9; /* 薄いパープル */
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.transform-btn-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  background-color: #f74cbb;
+  color: white;
+  border: none;
+  position: relative;
+  font-size: 300px;
+  cursor: pointer;
+  border-radius: 50%;
+  text-decoration: none;
+  
+}
+
+.transform-btn-image:hover {
+  background-color: #f728af; /* もう少し濃いピンク */
+}
+
+.btn-image:hover {
+  background-color: #bf49f5; /* もう少し濃いパープル */
+}
+
+/* 画面中央にテキストを配置 */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  margin: 0;
+  text-align: center;
+}
+.button-container {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 4em; /* 文字の大きさを3倍にします */
+  font-weight: bold; /* 文字を太くします */
+  padding: 15px;
+}
+
+h2 {
+  font-size: 2em; /* 文字の大きさを3倍にします */
+  font-weight: bold; /* 文字を太くします */
+}
